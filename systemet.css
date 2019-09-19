@@ -1,0 +1,82 @@
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 7px;
+  color: #eb4034;
+  margin: 20px;
+  font-size: 12px;
+
+}
+
+body{
+  background-color: #ffe3d1;
+}
+.span-16{
+  grid-column: span 16;
+}
+.usynlig{
+  opacity: 0;
+}
+
+.span-10{
+  grid-column: span 10;
+}
+
+.grunnstoff:hover{
+  background-color: lightgrey;
+  color: white;
+  transform: scale(1.01);
+  box-shadow:
+}
+
+.grunnstoff{
+  border-style: solid;
+  border-radius: 4px;
+  border-color: orange;
+}
+
+.tall,.navn{
+  text-align: center;
+}
+.tall{
+  font-size: 19px;
+}
+body{
+  margin: 0px; /* Fjerner margen rundt hele nettsiden */
+  font-family: helvetica; /* Setter en skrifttype på hele nettsiden */
+  color:
+}
+nav{
+  background-color: #eb4034; /* Velger en bakgrunnsfarge på navigasjonsbaren */
+  display: flex; /* Gjør navigasjonsbaren til en flex box */
+}
+
+nav a{ /* Velger alle a-elementer som ligger inne i nav */
+  color: white; /* Velger skriftfarge på lenkene */
+  text-decoration: none; /* Fjerner understrek på lenkene */
+  padding: 25px; /* Lager 25px med "luft" rundt lenkene */
+}
+nav .active{ /* Velger klassen activ inne i nav */
+  background-color: pink; /* Setter bakgrunnsfarge på elementet som er active */
+ }
+nav a:hover:not(.active){ /* Velger a-elementer som musen er over inne i nav, men ikke elementer som har klassen active */
+  background-color: lightgrey; /* Setter bakgrunnsfarge*/
+}
+.edelgasser{
+  background-color: pink;
+}
+.halogen{
+  background-color: #d1fbff;
+}
+.alkalimetall{
+  background-color: #d1ffdb;
+}
+.andremetall{
+  background-color: #faffd1;
+}
+.jordalkalimetall{
+  background-color: #d8d1ff;
+}
+.ikkemetall{
+  background-color: #ffc27d;
+}
